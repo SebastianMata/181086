@@ -18,7 +18,7 @@ cpan install Set::Scalar
 Teniendo en cuenta que las mayúsculas y minúsculas son importantes.
 
 Dependiendo de la configuración de internet que tengamos, particularmente el proxy, esto podría fallar.
-La solución que encontré en caso de que sea así es descargar manualmente el módulo (en https://metacpan.org/pod/Set::Scalar) y descomprimir los archivos contenidos en el .tar.gz en C:\Perl64\lib según corresponda con las carpetas del archivo descargado
+La solución que encontré en caso de que sea así es descargar manualmente el módulo (enlace de descarga provisto anteriormente) y descomprimir los archivos contenidos en el .tar.gz en C:\Perl64\lib según corresponda con las carpetas del archivo descargado
 Una vez hecho esto pude utilizar el módulo añadiendo
 
 ```perl
@@ -81,7 +81,7 @@ Sin embargo tuve problemas mostrando esto en pantalla utilizando Perl, en otro l
 pero en Perl, esto no ocurrió. 
 Para solucionar este problema utilicé estructuras condicionales IF en el código para mostrar un mensaje en pantalla en caso de que devuelvan true o que devuelvan false
 
-####Nota: 
+#### Nota: 
 Al final del código simplemente se usan las funciones previamente desarrolladas con el propósito de verificar su funcionamiento
 pueden comentarse y descomentarse según convenga para observar la manera en la que cada una se ejecuta.
 
